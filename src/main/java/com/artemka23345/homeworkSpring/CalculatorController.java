@@ -39,7 +39,7 @@ public class CalculatorController {
         if(num1 == null || num2 == null){
             return "Не передан параметр";
         }
-        return  num1 + "+" + num2 + "=" + сalculatorService.minus(num1,num2);
+        return  num1 + "-" + num2 + "=" + сalculatorService.minus(num1,num2);
     }
     @GetMapping("/divide")
     public String divide(@RequestParam(required = false) Double num1,@RequestParam(required = false) Double num2){
