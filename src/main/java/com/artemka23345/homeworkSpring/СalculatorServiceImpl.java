@@ -22,8 +22,7 @@ public class СalculatorServiceImpl implements CalculatorService{
 
     }
     public Double divide(Double num1, Double num2){
-        Double i  = (num1 / num2);
-        return i;
+        return num1 / num2;
 
     }
 }
